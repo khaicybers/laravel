@@ -46,3 +46,7 @@ Route::post('category','CategoryController@store')->name('category.store');
 
 
 
+<<<<<<< HEAD
+=======
+// Route::get('', [HomeController::class, 'index'])->name('home.index');
+>>>>>>> 794f7cdfb69aaad5d88a318694e60c686ffa6163
