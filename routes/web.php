@@ -46,4 +46,4 @@ Route::delete('category/{id}',[CategoryController::class,'delete'])->name('categ
 Route::get('category/{id}/edit',[CategoryController::class,'edit'])->name('category.edit');
 Route::put('category/{id}',[CategoryController::class,'update'])->name('category.update');
 
-Route::get('', [HomeController::class, 'index'])->name('home.index');
+// Route::get('', [HomeController::class, 'index'])->name('home.index');
